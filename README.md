@@ -24,3 +24,7 @@ Please feel free to contribute. Please open an issue first (or comment on an exi
 Unless you explicitly state otherwise, any contribution intentionally submitted for inclusion in the work by you shall be licensed as above, without any additional terms or conditions.
 
 The most helpful contributions are flight plans that have already been checked against the FAA 7110.65 and ZLA SOPs & LOAs.
+
+## Note
+
+Not endorsed by VATSIM, VATUSA, ZLA, or anyone else. Not for use in real-world aviation.

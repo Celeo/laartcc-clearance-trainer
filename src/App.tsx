@@ -45,7 +45,7 @@ export const App: Component = () => {
           </button>
         </Show>
         <Show when={shownQuestions().length === QUESTIONS.length}>
-          <p class="text-sm">
+          <p class="text-sm mb-3">
             You've seen all the questions currently available.
           </p>
         </Show>
@@ -59,6 +59,10 @@ export const App: Component = () => {
             GitHub
           </a>
           , or Discord <i>Celeo#1453</i>
+        </p>
+        <p class="text-sm">
+          Not endorsed by VATSIM, VATUSA, ZLA, or anyone else. Not for use in
+          real-world aviation.
         </p>
       </div>
     </div>
