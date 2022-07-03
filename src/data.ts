@@ -231,6 +231,23 @@ export const QUESTIONS: Array<Question> = [
     issues: ["Waypoints"],
     notes: "Missing SEBBY waypoint",
   },
+  {
+    preface: "",
+    flightPlan: {
+      callsign: "WAT1381",
+      aircraftType: "CL60/L",
+      flightRule: "IFR",
+      departure: "KSAN",
+      arrival: "KGPI",
+      alternate: "KPUW",
+      cruiseAltitude: 38_000,
+      squawk: 0,
+      route: "PADRZ2 EHF PINNI TILTS/N0472F390 REO BOI DOXIE FCA",
+      remarks: "/v/",
+    },
+    issues: [],
+    notes: "",
+  },
   // {
   //   preface: "",
   //   flightPlan: {
@@ -241,7 +258,7 @@ export const QUESTIONS: Array<Question> = [
   //     arrival: "",
   //     alternate: "",
   //     cruiseAltitude: 0,
-  //     squawk: 4665,
+  //     squawk: 0,
   //     route: "",
   //     remarks: "",
   //   },
