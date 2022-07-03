@@ -16,4 +16,4 @@ jobs:
         node-version: 16.x
     - run: yarn
     - run: yarn build
-    - run: npx surge build ${{ secrets.SURGE_DOMAIN }} --token ${{ secrets.SURGE_TOKEN }}
+    - run: npx surge dist ${{ secrets.SURGE_DOMAIN }} --token ${{ secrets.SURGE_TOKEN }}
