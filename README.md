@@ -11,7 +11,7 @@ A web app designed to help VATSIM ZLA students practice verifying filed flight p
 
 ## Using
 
-The app is designed to be build (`yarn build`) and then deployed to a site (I use [surge](surge.sh)).
+The app is designed to be build (`yarn build`) and then deployed to a site (I use [surge](https://surge.sh)).
 
 ## License
 
