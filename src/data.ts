@@ -29,6 +29,18 @@ export interface Question {
   issues: Array<Issue>;
 }
 
+/**
+ * =================
+ *      WARNING
+ * =================
+ *
+ * Below here, all of the questions are defined. If you're here to poke around the code, nothing
+ * interesting to you is below here. If you're here to look for answers to submit and you don't
+ * want to use the app, then continue reading. If you're here looking for the answer to a question,
+ * remember that that isn't the point of the app. This app isn't _graded_, it doesn't actually
+ * count for anything. It's **just practice**.
+ */
+
 export const QUESTIONS: Array<Question> = [
   {
     description: "",

@@ -362,6 +362,11 @@
     "@nodelib/fs.scandir" "2.1.5"
     fastq "^1.6.0"
 
+"@solid-primitives/keyed@^1.0.0":
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/@solid-primitives/keyed/-/keyed-1.0.0.tgz#bd2fb64f90130b2d6a0523b9fa91d29873cc6077"
+  integrity sha512-9vznFq6xR1FLEcQH3S3aGZ3iWOY6EZmDEl0raNOXJxdgXnudHepcAOfx8G52bROHJ3AdPnIqv4ITIegPQOK2BA==
+
 acorn-jsx@^5.3.2:
   version "5.3.2"
   resolved "https://registry.yarnpkg.com/acorn-jsx/-/acorn-jsx-5.3.2.tgz#7ed5bb55908b3b2f1bc55c6af1653bada7f07937"

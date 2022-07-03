@@ -3,10 +3,11 @@ import { Question, ISSUES, Issue } from "./data";
 import { FlightStrip } from "./FlightStrip";
 import { QuestionResults } from "./QuestionResults";
 
-export const AskQuestion: Component<{ question: Question }> = (props) => {
-  type ButtonSelected = "None" | "Valid" | "Invalid";
-  type Buttons = "Valid" | "Invalid" | "Submit";
+type ButtonSelected = "None" | "Valid" | "Invalid";
 
+type Buttons = "Valid" | "Invalid" | "Submit";
+
+export const AskQuestion: Component<{ question: Question }> = (props) => {
   const [buttonSelected, setButtonSelected] =
     createSignal<ButtonSelected>("None");
   const [issuesSelected, setIssuesSelected] = createSignal<Array<Issue>>([]);
