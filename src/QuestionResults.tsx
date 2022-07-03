@@ -29,7 +29,7 @@ export const QuestionResults: Component<{
         <h3 class="text-3xl text-red-400 pb-10 pt-5">Incorrect</h3>
         <Show when={props.issues.length > 0}>
           <p>Reasons you listed:</p>
-          <ul class="list-disc pb-10">
+          <ul class="list-disc pb-5">
             <For each={props.issues}>
               {(item) => <li class="ml-10">{item}</li>}
             </For>
@@ -47,14 +47,14 @@ export const QuestionResults: Component<{
               {(item) => <li class="ml-10">{item}</li>}
             </For>
           </ul>
-          <Show when={props.question.notes.length > 0}>
-            <p class="pt-5">
-              <strong>Notes: </strong>
-              {props.question.notes}
-            </p>
-          </Show>
         </Show>
-        <p class="pt-10">Helpful links:</p>
+        <Show when={props.question.notes.length > 0}>
+          <p class="pt-5">
+            <strong>Notes: </strong>
+            {props.question.notes}
+          </p>
+        </Show>
+        <p class="pt-5">Helpful links:</p>
         <ul class="list-disc">
           <li class="ml-10">
             <a
