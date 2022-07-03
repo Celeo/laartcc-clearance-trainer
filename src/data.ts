@@ -24,7 +24,7 @@ export interface FlightPlan {
 }
 
 export interface Question {
-  description: string;
+  preface: string;
   flightPlan: FlightPlan;
   issues: Array<Issue>;
   notes: string;
@@ -44,7 +44,7 @@ export interface Question {
 
 export const QUESTIONS: Array<Question> = [
   {
-    description: "",
+    preface: "",
     flightPlan: {
       callsign: "SWA1234",
       aircraftType: "A320/G",

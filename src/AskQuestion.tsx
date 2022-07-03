@@ -64,9 +64,9 @@ export const AskQuestion: Component<{ question: Question }> = (props) => {
 
   return (
     <div>
-      <Show when={props.question.description.length > 0}>
+      <Show when={props.question.preface.length > 0}>
         <div class="pb-3">
-          <strong>Information: </strong> {props.question.description}
+          <strong>Information: </strong> {props.question.preface}
         </div>
       </Show>
       <FlightStrip plan={props.question.flightPlan} />
