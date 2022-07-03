@@ -27,6 +27,7 @@ export interface Question {
   description: string;
   flightPlan: FlightPlan;
   issues: Array<Issue>;
+  notes: string;
 }
 
 /**
@@ -57,5 +58,6 @@ export const QUESTIONS: Array<Question> = [
       remarks: "/v/",
     },
     issues: [],
+    notes: "",
   },
 ];

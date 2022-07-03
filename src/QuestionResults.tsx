@@ -47,8 +47,14 @@ export const QuestionResults: Component<{
               {(item) => <li class="ml-10">{item}</li>}
             </For>
           </ul>
+          <Show when={props.question.notes.length > 0}>
+            <p class="pt-5">
+              <strong>Notes: </strong>
+              {props.question.notes}
+            </p>
+          </Show>
         </Show>
-        <p class="pt-20">Helpful links:</p>
+        <p class="pt-10">Helpful links:</p>
         <ul class="list-disc">
           <li class="ml-10">
             <a
