@@ -48,12 +48,6 @@ export const QuestionResults: Component<{
             </For>
           </ul>
         </Show>
-        <Show when={props.question.notes.length > 0}>
-          <p class="pt-5">
-            <strong>Notes: </strong>
-            {props.question.notes}
-          </p>
-        </Show>
         <p class="pt-5">Helpful links:</p>
         <ul class="list-disc">
           <li class="ml-10">
@@ -84,6 +78,12 @@ export const QuestionResults: Component<{
             </a>
           </li>
         </ul>
+      </Show>
+      <Show when={props.question.notes.length > 0}>
+        <p class="pt-5">
+          <strong>Notes: </strong>
+          {props.question.notes}
+        </p>
       </Show>
     </>
   );
