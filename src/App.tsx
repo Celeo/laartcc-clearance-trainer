@@ -26,9 +26,10 @@ export const App: Component = () => {
 
   return (
     <div class="container mx-auto px-4 pt-4">
-      <h2 class="font-bold text-center text-3xl pb-10">
-        LA ARTCC Clearance Trainer
-      </h2>
+      <h2 class="font-bold text-center text-3xl">LA ARTCC Clearance Trainer</h2>
+      <h3 class="font-bold text-center text-lg text-orange-600 pb-10">
+        This site is a work in progress
+      </h3>
       <Show when={currentIndex() === -1}>
         <p class="text-red-700">Could not select a question</p>
       </Show>
